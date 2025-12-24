@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '0 0 1,16 * *'  # 每16天运行一次
+  #  - cron: '0 0 1,16 * *'  # 每16天运行一次
 
 jobs:
   deploy:
